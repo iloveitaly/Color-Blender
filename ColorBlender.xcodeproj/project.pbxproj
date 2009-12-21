@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270B1F7F10DF06DE006ACB12 /* CBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B1F7810DF06DE006ACB12 /* CBAppController.m */; };
+		270B1F8010DF06DE006ACB12 /* CBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B1F7A10DF06DE006ACB12 /* CBMenuController.m */; };
+		270B1F8110DF06DE006ACB12 /* CBPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B1F7C10DF06DE006ACB12 /* CBPrefController.m */; };
+		270B1F8210DF06DE006ACB12 /* CBRGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B1F7E10DF06DE006ACB12 /* CBRGBColor.m */; };
 		272A4B730826BBC900323BA1 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 272A4B720826BBC800323BA1 /* icon.icns */; };
 		27392B9B0B77F1D10024ADA4 /* CHANGELOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27392B9A0B77F1D10024ADA4 /* CHANGELOG.txt */; };
 		27C964340B89F9F200BC88FF /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27C964330B89F9F200BC88FF /* Preferences.nib */; };
 		27CB0AC308295DF70020B1CF /* gpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27CB0AC208295DF70020B1CF /* gpl.txt */; };
-		4C121A8708201D6400BEB0FB /* CBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C121A8508201D6400BEB0FB /* CBMenuController.m */; };
-		4C16FC6907F446C000D77A60 /* CBRGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C16FC6707F446C000D77A60 /* CBRGBColor.m */; };
-		4C3568A807F1E50700219979 /* CBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3568A607F1E50700219979 /* CBAppController.m */; };
-		4C72A9270809F7E200F4D8B9 /* CBPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72A9250809F7E200F4D8B9 /* CBPrefController.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -24,27 +24,27 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		272A4B720826BBC800323BA1 /* icon.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		27392B9A0B77F1D10024ADA4 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
-		275463B00B5D2639002427BD /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		270B1F7710DF06DE006ACB12 /* CBAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBAppController.h; path = Source/CBAppController.h; sourceTree = "<group>"; };
+		270B1F7810DF06DE006ACB12 /* CBAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBAppController.m; path = Source/CBAppController.m; sourceTree = "<group>"; };
+		270B1F7910DF06DE006ACB12 /* CBMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBMenuController.h; path = Source/CBMenuController.h; sourceTree = "<group>"; };
+		270B1F7A10DF06DE006ACB12 /* CBMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBMenuController.m; path = Source/CBMenuController.m; sourceTree = "<group>"; };
+		270B1F7B10DF06DE006ACB12 /* CBPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBPrefController.h; path = Source/CBPrefController.h; sourceTree = "<group>"; };
+		270B1F7C10DF06DE006ACB12 /* CBPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBPrefController.m; path = Source/CBPrefController.m; sourceTree = "<group>"; };
+		270B1F7D10DF06DE006ACB12 /* CBRGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBRGBColor.h; path = Source/CBRGBColor.h; sourceTree = "<group>"; };
+		270B1F7E10DF06DE006ACB12 /* CBRGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBRGBColor.m; path = Source/CBRGBColor.m; sourceTree = "<group>"; };
+		272A4B720826BBC800323BA1 /* icon.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; name = icon.icns; path = Resources/Images/icon.icns; sourceTree = "<group>"; };
+		27392B9A0B77F1D10024ADA4 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG.txt; path = Resources/Release/CHANGELOG.txt; sourceTree = "<group>"; };
+		275463B00B5D2639002427BD /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Release/Credits.rtf; sourceTree = "<group>"; };
 		27C964280B89F98E00BC88FF /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		27C964370B89FA0700BC88FF /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Preferences.nib; sourceTree = "<group>"; };
 		27CB0AA308295C650020B1CF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		27CB0AC208295DF70020B1CF /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* ColorBlender_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorBlender_Prefix.pch; sourceTree = "<group>"; };
-		4C121A8408201D6400BEB0FB /* CBMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMenuController.h; sourceTree = "<group>"; };
-		4C121A8508201D6400BEB0FB /* CBMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMenuController.m; sourceTree = "<group>"; };
-		4C16FC6607F446C000D77A60 /* CBRGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRGBColor.h; sourceTree = "<group>"; };
-		4C16FC6707F446C000D77A60 /* CBRGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRGBColor.m; sourceTree = "<group>"; };
-		4C3568A607F1E50700219979 /* CBAppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CBAppController.m; sourceTree = "<group>"; };
-		4C3568A707F1E50700219979 /* CBAppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CBAppController.h; sourceTree = "<group>"; };
-		4C72A9240809F7E200F4D8B9 /* CBPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPrefController.h; sourceTree = "<group>"; };
-		4C72A9250809F7E200F4D8B9 /* CBPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPrefController.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ColorBlender_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorBlender_Prefix.pch; path = Source/ColorBlender_Prefix.pch; sourceTree = "<group>"; };
 		4C72A93B080A951D00F4D8B9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Color Blender.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Color Blender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Color Blender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Blender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +62,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C3568A707F1E50700219979 /* CBAppController.h */,
-				4C3568A607F1E50700219979 /* CBAppController.m */,
-				4C16FC6607F446C000D77A60 /* CBRGBColor.h */,
-				4C16FC6707F446C000D77A60 /* CBRGBColor.m */,
-				4C121A8408201D6400BEB0FB /* CBMenuController.h */,
-				4C121A8508201D6400BEB0FB /* CBMenuController.m */,
-				4C72A9240809F7E200F4D8B9 /* CBPrefController.h */,
-				4C72A9250809F7E200F4D8B9 /* CBPrefController.m */,
+				270B1F7710DF06DE006ACB12 /* CBAppController.h */,
+				270B1F7810DF06DE006ACB12 /* CBAppController.m */,
+				270B1F7910DF06DE006ACB12 /* CBMenuController.h */,
+				270B1F7A10DF06DE006ACB12 /* CBMenuController.m */,
+				270B1F7B10DF06DE006ACB12 /* CBPrefController.h */,
+				270B1F7C10DF06DE006ACB12 /* CBPrefController.m */,
+				270B1F7D10DF06DE006ACB12 /* CBRGBColor.h */,
+				270B1F7E10DF06DE006ACB12 /* CBRGBColor.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -162,9 +162,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 273E21B3085648E200512B2E /* Build configuration list for PBXProject "ColorBlender" */;
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ColorBlender */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Color Blender */,
 			);
@@ -193,10 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				4C3568A807F1E50700219979 /* CBAppController.m in Sources */,
-				4C16FC6907F446C000D77A60 /* CBRGBColor.m in Sources */,
-				4C72A9270809F7E200F4D8B9 /* CBPrefController.m in Sources */,
-				4C121A8708201D6400BEB0FB /* CBMenuController.m in Sources */,
+				270B1F7F10DF06DE006ACB12 /* CBAppController.m in Sources */,
+				270B1F8010DF06DE006ACB12 /* CBMenuController.m in Sources */,
+				270B1F8110DF06DE006ACB12 /* CBPrefController.m in Sources */,
+				270B1F8210DF06DE006ACB12 /* CBRGBColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +277,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
 			};
 			name = Development;
 		};
@@ -286,6 +289,7 @@
 					ppc,
 					i386,
 				);
+				GCC_VERSION = 4.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
