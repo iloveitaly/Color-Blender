@@ -1,0 +1,91 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                RGBValuesEditedLeft = id; 
+                RGBValuesEditedMiddle = id; 
+                RGBValuesEditedRight = id; 
+                blendColors = id; 
+                getGPL = id; 
+                goToHomePage = id; 
+                hexColorLeft = id; 
+                hexColorRight = id; 
+                hexValueEditedLeft = id; 
+                hexValueEditedMiddle = id; 
+                hexValueEditedRight = id; 
+                openPrefs = id; 
+                unblendColors = id; 
+            }; 
+            CLASS = CBAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bLeft = NSTextField; 
+                bMixed = NSTextField; 
+                bRight = NSTextField; 
+                blendRatioSlider = NSSlider; 
+                colorLeft = NSColorWell; 
+                colorRight = NSColorWell; 
+                gLeft = NSTextField; 
+                gMixed = NSTextField; 
+                gRight = NSTextField; 
+                hexLeft = NSTextField; 
+                hexRight = NSTextField; 
+                mainWindow = NSWindow; 
+                mixedColor = NSColorWell; 
+                mixedHex = NSTextField; 
+                rLeft = NSTextField; 
+                rMixed = NSTextField; 
+                rRight = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                RGBValuesEditedLeft = id; 
+                RGBValuesEditedMiddle = id; 
+                RGBValuesEditedRight = id; 
+                blendColors = id; 
+                getGPL = id; 
+                goToHomePage = id; 
+                hexColorLeft = id; 
+                hexColorRight = id; 
+                hexValueEditedLeft = id; 
+                hexValueEditedMiddle = id; 
+                hexValueEditedRight = id; 
+                openPrefs = id; 
+                unblendColors = id; 
+            }; 
+            CLASS = appController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bLeft = NSTextField; 
+                bMixed = NSTextField; 
+                bRight = NSTextField; 
+                blendRatioSlider = NSSlider; 
+                colorLeft = NSColorWell; 
+                colorRight = NSColorWell; 
+                gLeft = NSTextField; 
+                gMixed = NSTextField; 
+                gRight = NSTextField; 
+                hexLeft = NSTextField; 
+                hexRight = NSTextField; 
+                mainWindow = NSWindow; 
+                mixedColor = NSColorWell; 
+                mixedHex = NSTextField; 
+                rLeft = NSTextField; 
+                rMixed = NSTextField; 
+                rRight = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = customDockMenu; LANGUAGE = ObjC; SUPERCLASS = NSMenu; }, 
+        {
+            ACTIONS = {setColorPrefix = id; setShouldUnblend = id; }; 
+            CLASS = prefController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
